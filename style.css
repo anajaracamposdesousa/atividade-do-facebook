@@ -1,0 +1,56 @@
+.barradenavegacao{
+    background-color: cornflowerblue;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+.fundo{
+    background-color: rgb(215, 217, 222);
+    font-size: xx-large;
+    padding: 20px;
+    font-weight: bolder;   
+}
+
+.userPhoto{
+    width: 240px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.userPhoto img
+{
+    width: 240px;
+    height: 320px;
+    margin: 5px;
+    border: solid 2px;
+    border-radius: 20%;
+}
+
+.fundo2{
+
+    font-size: xx-large;
+    padding: 10px;
+    font-weight:bolder;     
+   margin-right: 50%;
+}
+
+.quadroBranco{
+    background-color:white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+}
+.esquerda{grid-column-start: 1;}
+.centro{grid-column-start: 2;}
+.direita{grid-column-start: 3;}
+
+body{
+    background-color: rgb(216, 210, 210);
+}
